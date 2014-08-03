@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D625B9DF19816383009C9115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625B9DE19816383009C9115 /* AppDelegate.swift */; };
-		D625B9E119816383009C9115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625B9E019816383009C9115 /* ViewController.swift */; };
+		D625B9E119816383009C9115 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625B9E019816383009C9115 /* FavoritesViewController.swift */; };
 		D625B9E419816383009C9115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D625B9E219816383009C9115 /* Main.storyboard */; };
 		D625B9E619816383009C9115 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D625B9E519816383009C9115 /* Images.xcassets */; };
 		D625B9F219816383009C9115 /* The_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625B9F119816383009C9115 /* The_DayTests.swift */; };
+		D625B9FC198166FE009C9115 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625B9FB198166FE009C9115 /* PageContentViewController.swift */; };
+		D625BA0019817046009C9115 /* addContactGuide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D625B9FF19817046009C9115 /* addContactGuide.jpg */; };
+		D625BA0219817400009C9115 /* Contacts_Detail_Scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = D625BA0119817400009C9115 /* Contacts_Detail_Scroll.png */; };
+		D672E0441983FF0900ECFDDD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672E0431983FF0900ECFDDD /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +32,16 @@
 		D625B9D919816383009C9115 /* The Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D625B9DD19816383009C9115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D625B9DE19816383009C9115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D625B9E019816383009C9115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D625B9E019816383009C9115 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		D625B9E319816383009C9115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D625B9E519816383009C9115 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D625B9EB19816383009C9115 /* The DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D625B9F019816383009C9115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D625B9F119816383009C9115 /* The_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_DayTests.swift; sourceTree = "<group>"; };
+		D625B9FB198166FE009C9115 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		D625B9FF19817046009C9115 /* addContactGuide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addContactGuide.jpg; sourceTree = "<group>"; };
+		D625BA0119817400009C9115 /* Contacts_Detail_Scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts_Detail_Scroll.png; sourceTree = "<group>"; };
+		D672E0431983FF0900ECFDDD /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +83,14 @@
 		D625B9DB19816383009C9115 /* The Day */ = {
 			isa = PBXGroup;
 			children = (
-				D625B9DE19816383009C9115 /* AppDelegate.swift */,
-				D625B9E019816383009C9115 /* ViewController.swift */,
-				D625B9E219816383009C9115 /* Main.storyboard */,
 				D625B9E519816383009C9115 /* Images.xcassets */,
+				D625BA0119817400009C9115 /* Contacts_Detail_Scroll.png */,
+				D625B9FF19817046009C9115 /* addContactGuide.jpg */,
+				D625B9DE19816383009C9115 /* AppDelegate.swift */,
+				D625B9E019816383009C9115 /* FavoritesViewController.swift */,
+				D625B9E219816383009C9115 /* Main.storyboard */,
+				D625B9FB198166FE009C9115 /* PageContentViewController.swift */,
+				D672E0431983FF0900ECFDDD /* ListViewController.swift */,
 				D625B9DC19816383009C9115 /* Supporting Files */,
 			);
 			path = "The Day";
@@ -189,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D625BA0219817400009C9115 /* Contacts_Detail_Scroll.png in Resources */,
+				D625BA0019817046009C9115 /* addContactGuide.jpg in Resources */,
 				D625B9E419816383009C9115 /* Main.storyboard in Resources */,
 				D625B9E619816383009C9115 /* Images.xcassets in Resources */,
 			);
@@ -208,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D625B9E119816383009C9115 /* ViewController.swift in Sources */,
+				D625B9FC198166FE009C9115 /* PageContentViewController.swift in Sources */,
+				D625B9E119816383009C9115 /* FavoritesViewController.swift in Sources */,
+				D672E0441983FF0900ECFDDD /* ListViewController.swift in Sources */,
 				D625B9DF19816383009C9115 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +413,7 @@
 				D625B9F719816383009C9115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D625B9F819816383009C9115 /* Build configuration list for PBXNativeTarget "The DayTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +422,7 @@
 				D625B9FA19816383009C9115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
