@@ -10,12 +10,12 @@ import UIKit
 
 class PageContentViewController: UIViewController {
 
-    var pageIndex : Int = 0
-    var titleText : String = ""
-    var imageFile : String = ""
+    var pageIndex = Int()
+    var titleText = String()
+    var imageFile = String()
 
-    @IBOutlet strong var backgroundImageView: UIImageView!
-    @IBOutlet strong var titleLabel: UILabel!
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
