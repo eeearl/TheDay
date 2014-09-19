@@ -1,0 +1,51 @@
+
+/* Class = "IBUITabBarItem"; title = "Timeline"; ObjectID = "1lS-Tw-Keb"; */
+"1lS-Tw-Keb.title" = "Timeline";
+
+/* Class = "IBUILabel"; text = "Photo Size for Sharing"; ObjectID = "3dk-IX-V4s"; */
+"3dk-IX-V4s.text" = "Photo Size for Sharing";
+
+/* Class = "IBUITabBarItem"; title = "Settings"; ObjectID = "7Tn-xg-4if"; */
+"7Tn-xg-4if.title" = "Settings";
+
+/* Class = "IBUIViewController"; title = "View"; ObjectID = "7mg-Gd-irA"; */
+"7mg-Gd-irA.title" = "View";
+
+/* Class = "IBUITableViewSection"; headerTitle = " "; ObjectID = "AcP-Gz-Pow"; */
+"AcP-Gz-Pow.headerTitle" = " ";
+
+/* Class = "IBUITableViewSection"; headerTitle = "PHOTO"; ObjectID = "J2z-ub-sgr"; */
+"J2z-ub-sgr.headerTitle" = "PHOTO";
+
+/* Class = "IBUILabel"; text = "Use Passcode"; ObjectID = "JYV-El-j6c"; */
+"JYV-El-j6c.text" = "Use Passcode";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "T6x-da-wkQ"; */
+"T6x-da-wkQ.title" = "Settings";
+
+/* Class = "IBUITabBarItem"; title = "Favorites"; ObjectID = "URH-EK-I8E"; */
+"URH-EK-I8E.title" = "Favorites";
+
+/* Class = "IBUILabel"; text = "Save to Camera Roll"; ObjectID = "W3l-1J-hTS"; */
+"W3l-1J-hTS.text" = "Save to Camera Roll";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "feP-er-7Af"; */
+"feP-er-7Af.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "List"; ObjectID = "gd3-9Q-Bj4"; */
+"gd3-9Q-Bj4.title" = "List";
+
+/* Class = "IBUIBarButtonItem"; title = "완료"; ObjectID = "iLR-Eu-Wue"; */
+"iLR-Eu-Wue.title" = "완료";
+
+/* Class = "IBUINavigationItem"; title = "Add"; ObjectID = "roe-EA-Rbv"; */
+"roe-EA-Rbv.title" = "Add";
+
+/* Class = "IBUILabel"; text = "Fullscreen on Launch"; ObjectID = "sLK-WY-Ad1"; */
+"sLK-WY-Ad1.text" = "Fullscreen on Launch";
+
+/* Class = "IBUIBarButtonItem"; title = "취소"; ObjectID = "ury-gw-aFx"; */
+"ury-gw-aFx.title" = "취소";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "xxl-u5-RfX"; */
+"xxl-u5-RfX.title" = "Edit";
